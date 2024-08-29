@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&family=Kalnia+Glaze:wght@100..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./images/light-red-uuedqr8jfdhfs3te.jpg);
+    background-size: cover;
+}
+
+.bg-img{
+    background-image: url(./bg-img.jpg);
+     max-height: 100vh;
+    background-size: cover;
+   
+   
+
+}
+
+.calculator {
+    padding: 40px;
+    border: 2px solid #000;
+    border-radius: 16px;
+    background-color: rgb(150, 139, 245);
+    box-shadow: 3px 3px 18px rgba(0, 0, 0, 0.8);
+}
+
+input {
+    width: 320px;
+    padding: 24px;
+    margin: 10px;
+    background: rgba(255, 255, 255, 0.3);
+    box-shadow: inset 10px 10px 0px 0px rgb(191, 67, 216);
+    font-size: 65px;
+    text-align: right;
+    color: black;
+    border: 2px solid rgba(0, 0, 0, 0.3);
+    border-radius: 16px;
+    text-shadow: 0px 1px 5px rgba(0, 0, 0, 0.2);
+}
+
+input::placeholder {
+    color: black;
+}
+
+button {
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    color: black;
+    background: rgb(191, 67, 216);
+    font-size: 24px;
+    cursor: pointer;
+    border: 1px solid brown;
+    border-radius: 25px;
+    text-shadow: 0px 1px 5px rgba(0, 0, 0, 0.2);
+    box-shadow: 5px 10px 0px 0PX black;
+}
+
+.ac,
+.del {
+    font-size: 20px;
+}
+
+button:hover {
+    color: #fff;
+    background: rgb(240, 98, 240);
+}
+
+.equalBtn {
+    background: rgb(255, 46, 46);
+}
+
+.operator {
+    color: rgb(120, 192, 221);
+}
